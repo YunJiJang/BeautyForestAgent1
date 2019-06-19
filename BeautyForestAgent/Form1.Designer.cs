@@ -58,7 +58,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(466, 14);
             this.label1.TabIndex = 1;
-            this.label1.Text = "(주)미림스쿨 - Beauty Forest Agent v0.1 by [학번] [이름]";
+            this.label1.Text = "(주)미림스쿨 - Beauty Forest Agent v0.1 by 3116 장윤지";
             // 
             // btnTray
             // 
@@ -74,6 +74,7 @@
             // ntiTray
             // 
             this.ntiTray.ContextMenuStrip = this.cmsMenu;
+            this.ntiTray.Icon = ((System.Drawing.Icon)(resources.GetObject("ntiTray.Icon")));
             this.ntiTray.Text = "notifyIcon1";
             this.ntiTray.DoubleClick += new System.EventHandler(this.NtiTray_DoubleClick);
             // 
@@ -83,12 +84,12 @@
             this.폼보이기ToolStripMenuItem,
             this.종료ToolStripMenuItem});
             this.cmsMenu.Name = "cmsMenu";
-            this.cmsMenu.Size = new System.Drawing.Size(181, 70);
+            this.cmsMenu.Size = new System.Drawing.Size(127, 48);
             // 
             // 폼보이기ToolStripMenuItem
             // 
             this.폼보이기ToolStripMenuItem.Name = "폼보이기ToolStripMenuItem";
-            this.폼보이기ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.폼보이기ToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.폼보이기ToolStripMenuItem.Text = "폼 보이기";
             this.폼보이기ToolStripMenuItem.Click += new System.EventHandler(this.폼보이기ToolStripMenuItem_Click);
             // 
@@ -97,6 +98,7 @@
             this.종료ToolStripMenuItem.Name = "종료ToolStripMenuItem";
             this.종료ToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.종료ToolStripMenuItem.Text = "종료";
+            this.종료ToolStripMenuItem.Click += new System.EventHandler(this.종료ToolStripMenuItem_Click);
             // 
             // Form1
             // 
